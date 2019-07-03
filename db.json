@@ -1,14 +1,13 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "departments": [
+    { "DepartmentID": 1, "DepartmentName": "Maths" },
+    { "DepartmentID": 2, "DepartmentName": "Science" },
+    { "DepartmentID": 3, "DepartmentName": "Computers" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "employees": [
+    { "EmployeeID": 1, "EmployeeName": "Girish", "Department": 1, "MailID":"giri@mail.com", "DOJ":"01/01/1989" },
+    { "EmployeeID": 2, "EmployeeName": "Santhosh", "Department": 2, "MailID":"santosh@mail.com", "DOJ":"02/02/2000" },
+    { "EmployeeID": 3, "EmployeeName": "Raju", "Department": 3, "MailID":"raju@mail.com", "DOJ":"02/12/2010" },
+    { "EmployeeID": 4, "EmployeeName": "Ganga", "Department": 2, "MailID":"ganga@mail.com", "DOJ":"04/05/1980" }
+  ]
 }
